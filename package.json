@@ -1,0 +1,26 @@
+{
+  "name": "runkit-tap",
+  "version": "0.1.0",
+  "description": "A way to write and view tests on runkit.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamicut/runkit-tap.git"
+  },
+  "author": "Marc Farra <marcfarra@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kamicut/runkit-tap/issues"
+  },
+  "homepage": "https://github.com/kamicut/runkit-tap#readme",
+  "dependencies": {
+    "@runkit/value-viewer": "^1.0.0",
+    "stream-to-promise": "^2.2.0",
+    "tap": "^10.7.2",
+    "tap-that-html": "^1.0.1",
+    "through": "^2.3.8"
+  }
+}
