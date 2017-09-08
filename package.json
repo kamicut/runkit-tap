@@ -20,9 +20,7 @@
     "@runkit/value-viewer": "^1.0.0",
     "stream-to-promise": "^2.2.0",
     "tap-that-html": "^1.0.1",
-    "through": "^2.3.8"
-  },
-  "devDependencies": {
+    "through": "^2.3.8",
     "tap": "^10.7.2"
   }
 }
