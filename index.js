@@ -1,21 +1,21 @@
-let tap = require('tap');
+const Test = require('tap').Test;
 let tapHTML = require('tap-that-html');
 const { ValueViewerSymbol } = require("@runkit/value-viewer");
 let through = require('through');
 let ssToPromise = require('stream-to-promise');
-tap.unpipe(process.stdout);
 
-function test(tests) {
+async function test(tests) {
+  const tap = new Test();
   // Setup
   let tt = through();
   let ss = ssToPromise(tt);
   tap.pipe(tt);
 
-  // Run tests
   for (let name in tests) {
-    await tap.test(name, tests[name]);
+    tap.test(name, tests[name]);
   }
   tt.end();
+  tap.end();
 
   // Format output
   return ss
