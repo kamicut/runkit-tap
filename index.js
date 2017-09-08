@@ -4,7 +4,7 @@ const { ValueViewerSymbol } = require("@runkit/value-viewer");
 let through = require('through');
 let ssToPromise = require('stream-to-promise');
 
-async function test(tests) {
+function test(tests) {
   const tap = new Test();
   // Setup
   let tt = through();
