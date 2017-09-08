@@ -1,6 +1,6 @@
 {
   "name": "runkit-tap",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A way to write and view tests on runkit.com",
   "main": "index.js",
   "scripts": {
