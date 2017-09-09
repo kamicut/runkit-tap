@@ -1,4 +1,4 @@
-# ✅ runkit-tap
+# ✅ runkit-tap [![npm version](https://badge.fury.io/js/runkit-tap.svg)](https://badge.fury.io/js/runkit-tap) [![Try runkt-tap on RunKit](https://badge.runkitcdn.com/runkit-tap.svg)](https://npm.runkit.com/runkit-tap)
 
 Test and view output on runkit.com
 
